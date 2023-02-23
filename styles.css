@@ -1,0 +1,76 @@
+/* Smooth scrolling behavior */
+html {
+  scroll-behavior: smooth;
+}
+section {
+  margin-top: 150px;  
+  margin-bottom: 250px;
+}
+  body {
+      font-family: 'Montserrat', sans-serif;
+      
+     
+    }
+    .header-text {
+  text-align: center;
+  margin-top: 10px;
+  color: #fff;
+}
+
+.header-text h1 {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.header-text p {
+  font-size: 14px;
+  font-weight: normal;
+  margin-top: 0px;
+}
+
+
+.project-section {
+
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px 0;
+}
+
+
+.project-item {
+  transition: transform 0.2s ease-out;
+   background-color:#374151;
+ 
+}
+
+.project-item:hover {
+  transform: translateY(-4px);
+  
+}
+
+.project-title {
+  color: #fffafa;
+}
+
+.project-description {
+  font-size: 16px;
+}
+
+.project-link {
+  font-size: 14px;
+}
+
+
+@media screen and (max-width: 768px) {
+  .project-section {
+    padding: 60px 0;
+  }
+  
+  .project-item {
+    margin-bottom: 40px;
+  }
+}
+
