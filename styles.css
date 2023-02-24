@@ -74,3 +74,14 @@ section {
   }
 }
 
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px; /* adjust the height as needed */
+}
+.contact-section {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
