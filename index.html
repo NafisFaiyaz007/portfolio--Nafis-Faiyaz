@@ -34,6 +34,12 @@
                     <a href="#" class="text-gray-100 px-10 font-bold text-xl">Nafis Faiyaz</a>
                     <a href="CV.pdf" download class="inline-block text-sm px-5 py-2 leading-none border rounded text-gray-100 border-white hover:border-transparent hover:text-gray-100 hover:bg-gray-500 mt-4 lg:mt-0">Download
                         CV</a>
+                        <a href="Professional_resume.pdf" download
+                            class="inline-block text-sm px-5 py-2 leading-none border rounded text-gray-100 border-white hover:border-transparent hover:text-gray-100 hover:bg-gray-500 mt-4 lg:mt-0">Download
+                            Professional Resume</a>
+                            <a href="Academic_resume.pdf" download
+                                class="inline-block text-sm px-5 py-2 leading-none border rounded text-gray-100 border-white hover:border-transparent hover:text-gray-100 hover:bg-gray-500 mt-4 lg:mt-0">Download
+                                Academic Resume</a>
                 </div>
                 <div class="hidden md:block">
                     <ul class="text-gray-400 text-xl flex">
@@ -66,35 +72,62 @@
 
         <!-- Header section -->
         <header>
-            <section id="home" class="bg-gray-900 mt-20">
-                <div class="container mx-auto px-4 py-6 ">
+            <section id="home" class=" bg-gray-900 mt-20">
+                <div class="container mx-auto px-4 py-6">
                     <div class="flex justify-center items-center flex-col">
                         <!-- Profile picture -->
                         <div class="mb-4 mt-10 rounded-full overflow-hidden">
-                            <img class="w-64 h-64 object-cover transform hover:-translate-y-2 transition duration-500"
+                            <img class="w-40 h-40 sm:w-64 sm:h-64 object-cover transform hover:-translate-y-2 transition duration-500"
                                 src="my picture.png" alt="Profile picture">
                         </div>
+                
                         <!-- Name section -->
-                        <div class="text-center text-white header-text animated fadeInDown">
-                            <h1 class="text-4xl font-bold transform hover:-translate-y-2 transition duration-500">
+                        <div class="text-center text-white header-text animate__animated animate__fadeInDown">
+                            <h1 class="text-2xl sm:text-4xl font-bold transform hover:-translate-y-2 transition duration-500">
                                 Chowdhury Nafis Faiyaz</h1>
                             <div
-                                class="header-text animated fadeInDown transform hover:-translate-y-2 transition duration-500">
-                                <p>Web Developer | Software Engineer</p>
+                                class="header-text animate__animated animate__fadeInDown transform hover:-translate-y-2 transition duration-500">
+                                <p class="text-base sm:text-lg">Web Developer | Software Engineer</p>
                             </div>
                         </div>
-
+                
+                        <!-- Introduction and Research Interest section -->
                         <div
-                            class="w-1/2 text-justify bg-gray-700 mt-5 rounded-lg p-8 shadow-lg transform hover:-translate-y-2 transition duration-500">
-                            <p class="text-lg leading-relaxed text-white">I am a computer science major with a passion
-                                for web development and software engineering. Currently studying in the North South University Bangladesh.
-                                I have experience in HTML, CSS, JavaScript, and several web development frameworks, and
-                                I am constantly learning and expanding my skill set to stay up to date with the latest
-                                technologies and trends in the field. </p>
+                            class="w-full sm:w-2/3 lg:w-1/2 text-justify bg-gray-700 mt-5 rounded-lg p-6 sm:p-8 shadow-lg transform hover:-translate-y-2 transition duration-500">
+                            <p class="text-sm sm:text-lg leading-relaxed text-white">I am a Computer Science and Engineering graduate
+                                from North South University Bangladesh.
+                                Specialized in Software Engineering, with a strong passion for data science, machine learning, and
+                                artificial intelligence. My work focuses on developing scalable software solutions and
+                                exploring the intersection of software development and machine learning. I have led several projects,
+                                including a blockchain-based Electronic Health Record system and a machine learning model analyzing
+                                factors affecting adolescent
+                                alcohol consumption, which will be presented at ACMLC 2024. Alongside my academic work, I have gained
+                                practical experience as a freelance web developer and data analyst, driven by a commitment to using
+                                technology for real-world
+                                impact. I am constantly learning and expanding my skill set to stay up to date with the latest
+                                technologies and trends in the field.</p>
+                
+                            <h2 class="text-xl sm:text-2xl font-medium mt-10 mb-4">Research Interest</h2>
+                            <p class="text-sm sm:text-lg leading-relaxed text-white">I am a dedicated and hardworking researcher with
+                                strong interests in Trustworthy AI, Machine Learning, Data Science, and
+                                Software Engineering, with a focus on developing scalable and reliable software systems. My research
+                                revolves around the intersection of these fields, aiming to create intelligent systems that ensure
+                                ethical integrity, transparency, and
+                                accountability. I am particularly passionate about addressing challenges in AI and machine learning,
+                                such as bias, fairness, and security, while improving data-driven decision-making processes.
+                
+                                In Software Engineering, I am committed to designing efficient and adaptable software solutions that can
+                                meet the increasing demands of modern technologies. I thrive in overcoming obstacles through
+                                determination and resilience, and I
+                                am eager to contribute to cutting-edge research. I am currently pursuing opportunities to expand my
+                                knowledge and expertise through advanced academic research, both at the Master's and PhD levels. My goal
+                                is to make meaningful
+                                contributions to the fields of AI, data science, and software engineering, driving innovation and
+                                progress in academia and industry.</p>
                         </div>
-                            
                     </div>
                 </div>
+
 
                 <!-- Social Media Section -->
 
@@ -131,8 +164,8 @@
                       
                         <div class="text-center">
                             <i class="fas fa-database fa-3x mb-4 text-indigo-500"></i>
-                            <h3 class="text-lg font-bold mb-2">System and Database Design</h3>
-                            <p class="text-gray-100">Experienced in designing databases using popular tools like MySQL.
+                            <h3 class="text-lg font-bold mb-2">Machine Learning and AI</h3>
+                            <p class="text-gray-100">Research interest in areas of ML and AI
                             </p>
                         </div>
 
@@ -162,63 +195,86 @@
 
 
         <!-- Projects -->
-        <section class="project-section py-0" id="projects">
-            <div class="container">
-                <h2 class="text-3xl font-bold text-center mb-8">Projects</h2>
+    <section class="project-section py-0" id="projects">
+        <div class="container">
+            <h2 class="text-3xl font-bold text-center mb-8">Projects</h2>
+    
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 text-justify gap-8">
+                <div class="project-item bg-white rounded-lg shadow-lg overflow-hidden flex flex-col">
+                    <img class="w-full h-64 object-cover object-center" src="images/acm.jpg" alt="Project 1">
+                    <div class="p-4 flex-grow">
+                        <h3 class="project-title text-xl justify-center font-medium mb-2">Research Paper</h3>
+                        <p class="project-description text-white mb-4">A machine learning model investigating the factors
+                            affecting risky levels of
+                            alcohol consumption among students. The paper has been selected for publication in 2024 6th
+                            Asia Conference on Machine Learning and Computing (ACMLC 2024).</p>
+                    </div>
+                    <a href="CSE498 research paper_ Investigating the Factors Affecting Risky Levels of Alcohol.pdf"
+                        target="_blank"
+                        class="project-link inline-block bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 transition duration-200 mx-auto m-2">View
+                        Project</a>
+                </div>
 
-                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-                    <div class="project-item bg-white rounded-lg shadow-lg overflow-hidden">
-                        <img class="w-full h-64 object-cover object-center" src="images/The amazing app.png"
-                            alt="Project 1">
-                        <div class="p-4">
-                            <h3 class="project-title text-lg justify-center font-medium mb-2">The Amazing App</h3>
-                            <p class="project-description text-white mb-4">“The Amazing App”, a web-based application
-                                which is used for encrypting and decrypting confidential files online. The app is build
-                                wih React.js, Tailwind css, sql, node and faceIO API</p>
-                            <a href="https://github.com/NafisFaiyaz007/the-amazing-project" target="_blank"
-                                class="project-link inline-block bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 transition duration-200">View
-                                Project</a>
-                        </div>
+                <div class="project-item bg-white rounded-lg shadow-lg overflow-hidden flex flex-col">
+                    <img class="w-full h-64 object-cover object-center" src="images/doctor.png" alt="Project 3">
+                    <div class="p-4 flex-grow">
+                        <h3 class="project-title text-xlfont-medium mb-2">MedEase</h3>
+                        <p class="project-description text-white mb-4">Blockchain based Electronic Health record System- “Medease”. The objective of
+                        this project is to develop a web application using IPFS and private blockchain to provide a secure
+                        and efficient way for patients to manage their medical records.</p>
                     </div>
-                    <div class="project-item bg-white rounded-lg shadow-lg overflow-hidden">
-                        <img class="w-full h-64 object-cover object-center" src="pumpkin plus.png" alt="Project 2">
-                        <div class="p-4">
-                            <h3 class="project-title text-lg justify-center font-medium mb-2">agri-business company
-                                Portfolio site</h3>
-                            <p class="project-description text-white mb-4">This is a portfolio website for a
-                                agri-business based company situated in Bangladesh. This website is still under
-                                development.</p>
-                            <a href="www.pumpkinplus.com" target="_blank"
-                                class="project-link inline-block bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 transition duration-200">View
-                                Project</a>
-                        </div>
+                    <a href="https://github.com/NafisFaiyaz007/MedEase_CSE499_SeniorDesign" target="_blank"
+                        class="project-link inline-block bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 transition duration-200 mx-auto m-2">View
+                        Project</a>
+                </div>
+    
+                <div class="project-item bg-white rounded-lg shadow-lg overflow-hidden flex flex-col">
+                    <img class="w-full h-64 object-cover object-center" src="images/The amazing app.png" alt="Project 1">
+                    <div class="p-4 flex-grow">
+                        <h3 class="project-title text-xl justify-center font-medium mb-2">The Amazing App</h3>
+                        <p class="project-description text-white mb-4">“The Amazing App”, a web-based application
+                            which is used for encrypting and decrypting confidential files online. The app is build
+                            wih React.js, Tailwind css, sql, node and faceIO API</p>
                     </div>
-                    <div class="project-item bg-white rounded-lg shadow-lg overflow-hidden">
-                        <img class="w-full h-64 object-cover object-center" src="images/doctor.png"
-                            alt="Project 3">
-                        <div class="p-4">
-                            <h3 class="project-title text-lg font-medium mb-2">MedEase</h3>
-                            <p class="project-description text-white mb-4">Revolutionize healthcare with our cutting-edge medical web application using blockchain technology. This is an ongoingg project for my senior design course</p>
-                            <a href="https://github.com/NafisFaiyaz007/MedEase_CSE499_SeniorDesign" target="_blank"
-                                class="project-link inline-block bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 transition duration-200">View
-                                Project</a>
-                        </div>
+                    <a href="https://github.com/NafisFaiyaz007/the-amazing-project" target="_blank"
+                        class="project-link inline-block bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 transition duration-200 mx-auto m-2">View
+                        Project</a>
+                </div>
+    
+                <div class="project-item bg-white rounded-lg shadow-lg overflow-hidden flex flex-col">
+                    <img class="w-full h-64 object-cover object-center" src="pumpkin plus.png" alt="Project 2">
+                    <div class="p-4 flex-grow">
+                        <h3 class="project-title text-xl justify-center font-medium mb-2">agri-business company
+                            Portfolio site</h3>
+                        <p class="project-description text-white mb-4">This is a portfolio website for a
+                            agri-business based company situated in Bangladesh. This website is still under
+                            development.</p>
                     </div>
-                    <div class="project-item bg-white rounded-lg shadow-lg overflow-hidden">
-                        <img class="w-full h-64 object-cover object-center" src="images/canteen.webp" alt="Project 4">
-                        <div class="p-4">
-                            <h3 class="project-title text-lg justify-center font-medium mb-2">NSU canteen</h3>
-                            <p class="project-description text-white mb-4">The proposed solution is a web application designed to streamline food ordering in the canteen. The application will
-                            display the available food items on both user and canteen screens, allowing students to select their desired food and
-                            make online payments securely through a payment gateway</p>
-                            <a href="https://github.com/zahirulnahid/CSE-482-Online-Canteen-Order-and-Queue-System" target="_blank"
-                                class="project-link inline-block bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 transition duration-200">View
-                                Project</a>
-                        </div>
+                    <a href="www.pumpkinplus.com" target="_blank"
+                        class="project-link inline-block bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 transition duration-200 mx-auto m-2">View
+                        Project</a>
+                </div>
+    
+               
+    
+                <div class="project-item bg-white rounded-lg shadow-lg overflow-hidden flex flex-col">
+                    <img class="w-full h-64 object-cover object-center" src="images/canteen.webp" alt="Project 4">
+                    <div class="p-4 flex-grow">
+                        <h3 class="project-title text-xl justify-center font-medium mb-2">NSU canteen</h3>
+                        <p class="project-description text-white mb-4">The proposed solution is a web application designed
+                            to streamline food ordering in the canteen. The application will
+                            display the available food items on both user and canteen screens, allowing students to select
+                            their desired food and
+                            make online payments securely through a payment gateway.</p>
                     </div>
+                    <a href="https://github.com/zahirulnahid/CSE-482-Online-Canteen-Order-and-Queue-System" target="_blank"
+                        class="project-link inline-block bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 transition duration-200 mx-auto m-2">View
+                        Project</a>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
+
 
 
 
@@ -232,43 +288,16 @@
             <div class="container mx-auto px-10">
                 <h2 class="text-3xl font-bold mb-8">Contact</h2>
                 <div class="flex flex-wrap -mx-4">
-                    <div class="w-full md:w-1/2 px-4">
-                        <h3 class="text-xl font-bold mb-4">Get in touch</h3>
-                        <form class="mb-4">
-                            <div class="mb-4">
-                                <label class="block text-gray-100 font-bold mb-2" for="name">
-                                    Name
-                                </label>
-                                <input
-                                    class="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-                                    id="name" type="text" placeholder="Name">
-                            </div>
-                            <div class="mb-4">
-                                <label class="block text-gray-100 font-bold mb-2" for="email">
-                                    Email
-                                </label>
-                                <input
-                                    class="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-                                    id="email" type="email" placeholder="Email">
-                            </div>
-                            <div class="mb-4">
-                                <label class="block text-gray-100 font-bold mb-2" for="message">
-                                    Message
-                                </label>
-                                <textarea
-                                    class="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-                                    id="message" placeholder="Message"></textarea>
-                            </div>
-                            <button
-                                class="bg-blue-500 hover:bg-blue-100 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
-                                type="button">
-                                Send
-                            </button>
-                        </form>
-                    </div>
+                    
+                    
                     <div class="w-full md:w-1/2 px-4">
                         <h3 class="text-xl font-bold mb-4">Social Media</h3>
                         <ul class="list-none">
+                            <li class="mb-2">
+                                <a href="nafisfaiyaz47@gmail.com" target="_blank" class="text-gray-100 hover:text-blue-500">
+                                    <i class="fab fa-github mr-2"></i>Email- nafisfaiyaz47@gmail.com
+                                </a>
+                            </li>
                             <li class="mb-2">
                                 <a href="https://github.com/NafisFaiyaz007" target="_blank" class="text-gray-100 hover:text-blue-500">
                                     <i class="fab fa-github mr-2"></i>GitHub
@@ -294,7 +323,7 @@
 </body>
 <footer class="footer-content py-0 bg-gray-800 ">
     <div class="container text-center">
-        <p class="text-gray-400">&copy; 2023 Chowdhury Nafis Faiyaz. All Rights Reserved.</p>
+        <p class="text-gray-400">&copy; 2024 Chowdhury Nafis Faiyaz. All Rights Reserved.</p>
     </div>
 </footer>
 
