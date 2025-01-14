@@ -9,7 +9,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url('images/bgImage.jpg');
+  background-image: url("https://res.cloudinary.com/dq8h4hhir/image/upload/v1736868009/Portfolio%20Pictures/bgImage_vlfc1v.jpg");
   background-size: cover; /* Ensure the image covers the entire screen */
   background-position: center; /* Center the background image */
   background-attachment: fixed; /* Make the background fixed when scrolling */

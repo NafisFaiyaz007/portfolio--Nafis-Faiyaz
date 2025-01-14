@@ -4,6 +4,7 @@ import projectData from "./data/projectData";
 import "animate.css";
 
 const ProjectSection = () => {
+  
   const [isScrolledIntoView, setIsScrolledIntoView] = useState(false);
   const sectionRef = useRef(null);
   const navigateToLink = (link) => {

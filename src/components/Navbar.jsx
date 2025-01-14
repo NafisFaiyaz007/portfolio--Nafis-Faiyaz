@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
-import myPic from "../images/my picture 2.jpg";
 const Navbar = () => {
   const [scrolling, setScrolling] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-
+  const myPic =
+    "https://res.cloudinary.com/dq8h4hhir/image/upload/c_crop,ar_1:1/v1736868501/Portfolio%20Pictures/Nafis_faiyaz_CV_imagejpg_grasci.jpg";
    const navigateToLink = (link) => {
      window.open(link, "_blank"); // Opens the link in a new tab
    };
@@ -59,6 +59,7 @@ const Navbar = () => {
           >
             Professional CV
           </button>
+          
         </div>
 
         {/* Mobile Menu Button */}

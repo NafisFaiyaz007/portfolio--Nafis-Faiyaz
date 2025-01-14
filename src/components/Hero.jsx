@@ -1,13 +1,13 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import React, { useEffect, useRef, useState } from "react";
 import "animate.css";
-import myPic from "../images/my picture 2.jpg";
 import "font-awesome/css/font-awesome.min.css";
 
 const Hero = () => {
   const [isVisible, setIsVisible] = useState(false);
   const sectionRef = useRef(null);
-
+const myPic =
+  "https://res.cloudinary.com/dq8h4hhir/image/upload/c_crop,ar_1:1/v1736868501/Portfolio%20Pictures/Nafis_faiyaz_CV_imagejpg_grasci.jpg";
   useEffect(() => {
     const observer = new IntersectionObserver(
       ([entry]) => {

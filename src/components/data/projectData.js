@@ -1,7 +1,13 @@
-import pumpkinplus from "../../images/PumpkinPlus website.png";
-import alcohol from "../../images/alcohol.webp";
-import MedEase  from "../../images/medease.png";
-import nsucanteen from "../../images/NSU canteen.jpg";
+
+const pumpkinplus =
+  "https://res.cloudinary.com/dq8h4hhir/image/upload/v1736868010/Portfolio%20Pictures/PumpkinPlus_website_fddd6g.png";
+const alcohol =
+  "https://res.cloudinary.com/dq8h4hhir/image/upload/v1736868008/Portfolio%20Pictures/alcohol_ecxi06.webp";
+const MedEase =
+  "https://res.cloudinary.com/dq8h4hhir/image/upload/v1736868008/Portfolio%20Pictures/medease_o6avr5.jpg";
+const nsucanteen =
+  "https://res.cloudinary.com/dq8h4hhir/image/upload/v1736868008/Portfolio%20Pictures/NSU_canteen_i8hqdm.jpg";
+
 
 const projectData = [
   {
