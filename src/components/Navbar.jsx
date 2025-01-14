@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import myPic from "../images/my picture.png";
+import myPic from "../images/my picture 2.jpg";
 const Navbar = () => {
   const [scrolling, setScrolling] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -36,10 +36,11 @@ const Navbar = () => {
         {/* Left Section: Brand Name */}
         <div className="flex items-center space-x-6">
           <img
-            className="w-14 max-w-xs sm:max-w-sm rounded-full object-cover"
+            className="w-14 max-w-xs sm:max-w-sm rounded-full border-2 border-myCyan object-cover"
             src={myPic}
             alt="Profile Pic"
           />
+          <h2 className="font-bebas text-2xl border-l-2 p-4 text-myCyan"> Nafis Faiyaz</h2>
         </div>
 
         {/* Desktop Menu */}
@@ -47,14 +48,14 @@ const Navbar = () => {
           <button
             onClick={() => navigateToLink(cv)}
             download
-            className="inline-block text-sm px-6 py-2 leading-none border rounded-md text-gray-100 border-white hover:border-2  hover:border-myCyan hover:text-white transition duration-300"
+            className="inline-block text-sm px-6 py-2 leading-none border rounded text-gray-100 border-white hover:border-2  hover:border-myCyan hover:text-white transition duration-300"
           >
             Academic CV
           </button>
           <button
             onClick={() => navigateToLink(resume)}
             download
-            className="inline-block text-sm px-6 py-2 leading-none border rounded-md text-gray-100 border-white hover:border-2 hover:border-myCyan hover:text-white transition duration-300"
+            className="inline-block text-sm px-6 py-2 leading-none border rounded text-gray-100 border-white hover:border-2 hover:border-myCyan hover:text-white transition duration-300"
           >
             Professional CV
           </button>
@@ -85,7 +86,7 @@ const Navbar = () => {
               <button
                 onClick={() => navigateToLink(cv)}
                 download
-                className="inline-block text-sm px-6 py-2 leading-none border rounded-md text-gray-100 border-white hover:border-2  hover:border-myCyan hover:text-white transition duration-300"
+                className="inline-block text-sm px-6 py-2 leading-none border rounded-md text-gray-100 border-white hover:border-2  hover:border-myCyan hover:text-white "
               >
                 Academic CV
               </button>
@@ -94,7 +95,7 @@ const Navbar = () => {
               <button
                 onClick={() => navigateToLink(resume)}
                 download
-                className="inline-block text-sm px-6 py-2 leading-none border rounded-md text-gray-100 border-white hover:border-2 hover:border-myCyan hover:text-white transition duration-300"
+                className="inline-block text-sm px-6 py-2 leading-none border rounded-md text-gray-100 border-white hover:border-2 hover:border-myCyan hover:text-white"
               >
                 Professional CV
               </button>

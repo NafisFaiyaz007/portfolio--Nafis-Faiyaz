@@ -1,7 +1,7 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import React, { useEffect, useRef, useState } from "react";
 import "animate.css";
-import myPic from "../images/my picture.png";
+import myPic from "../images/my picture 2.jpg";
 import "font-awesome/css/font-awesome.min.css";
 
 const Hero = () => {
@@ -41,7 +41,7 @@ const Hero = () => {
             isVisible ? "animate__animated animate__fadeInLeft" : ""
           }`}
         >
-          <div className="relative rounded-full overflow-hidden shadow-xl mb-4 transform transition duration-300 hover:scale-110">
+          <div className="relative rounded-full overflow-hidden shadow-xl mb-4 transform transition duration-600 hover:scale-105">
             <img
               className="w-auto max-w-xs sm:max-w-sm object-cover"
               src={myPic}
@@ -51,7 +51,7 @@ const Hero = () => {
           <h1 className="text-3xl sm:text-5xl font-bebas text-myWhite leading-tight mb-2 text-center">
             Chowdhury Nafis Faiyaz
           </h1>
-          <p className="text-lg sm:text-xl font-raleway opacity-80 mb-6 text-center">
+          <p className="text-lg sm:text-xl font-raleway text-myCyan opacity-100 mb-6 text-center">
             Web Developer | Software Engineer
           </p>
 
@@ -85,7 +85,7 @@ const Hero = () => {
           {/* Introduction Section */}
           <div className="w-full rounded-lg text-myWhite p-6 sm:p-8 text-justify shadow-xl">
             <h2 className="font-bebas text-2xl ">My Biography</h2>
-            <p className="text-sm leading-relaxed mb-4">
+            <p className="text-sm leading-loose mb-4">
               I’m a Computer Science and Engineering graduate from North South
               University, Bangladesh, with a specialization in Software
               Engineering. My passion lies at the intersection of software
@@ -103,7 +103,7 @@ const Hero = () => {
             </p>
 
             <h2 className="text-2xl font-bebas mt-2">Research Interests</h2>
-            <p className="text-sm  leading-relaxed">
+            <p className="text-sm  leading-loose">
               I am a dedicated and hardworking researcher with strong interests
               in Trustworthy AI, Machine Learning, Data Science, and Software
               Engineering, with a focus on developing scalable and reliable

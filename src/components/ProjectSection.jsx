@@ -16,7 +16,7 @@ const ProjectSection = () => {
         // Set isScrolledIntoView to true when at least part of the section is in view
         setIsScrolledIntoView(entry.isIntersecting);
       },
-      { threshold: 0.5 } // Trigger as soon as 10% of the section is in view
+      { threshold: 0.1 } // Trigger as soon as 10% of the section is in view
     );
 
     if (sectionRef.current) {
@@ -50,7 +50,7 @@ const ProjectSection = () => {
           {projectData.map((project, index) => (
             <div
               key={project.id}
-              className={`flex flex-col lg:flex-row ${
+              className={`flex flex-col transform transition duration-300 hover:scale-105 lg:flex-row ${
                 index % 2 === 1 ? "lg:flex-row-reverse" : ""
               } items-center lg:space-x-8 space-y-6 lg:space-y-0`}
             >
@@ -62,8 +62,8 @@ const ProjectSection = () => {
                 />
               </div>
               <div className="lg:w-1/2 text-center lg:text-left space-y-4">
-                <h3 className="text-2xl font-raleway">{project.title}</h3>
-                <p className="text-black">{project.description}</p>
+                <h3 className="text-2xl p-2 text-justify font-raleway">{project.title}</h3>
+                <p className="text-myBlack text-justify p-2">{project.description}</p>
                 <button
                   onClick={() => navigateToLink(project.link)}
                   className="bg-white border-2 border-myBlack hover:border-myCyan hover:bg-myCyan text-myBlack px-6 py-3 shadow-lg transition duration-300"
