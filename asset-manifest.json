@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/github.io/Nafis-Faiyaz-portfolio/static/css/main.f8b1f3b5.css",
-    "main.js": "/github.io/Nafis-Faiyaz-portfolio/static/js/main.05913570.js",
+    "main.js": "/github.io/Nafis-Faiyaz-portfolio/static/js/main.8544aee5.js",
     "static/js/488.a299660a.chunk.js": "/github.io/Nafis-Faiyaz-portfolio/static/js/488.a299660a.chunk.js",
     "static/media/my picture.png": "/github.io/Nafis-Faiyaz-portfolio/static/media/my picture.7e128e20256a42b34d4c.png",
     "static/media/PumpkinPlus website.png": "/github.io/Nafis-Faiyaz-portfolio/static/media/PumpkinPlus website.1f69c5298665ab57994b.png",
@@ -16,11 +16,11 @@
     "static/media/alcohol.webp": "/github.io/Nafis-Faiyaz-portfolio/static/media/alcohol.ee2aa4ed55168eb10053.webp",
     "index.html": "/github.io/Nafis-Faiyaz-portfolio/index.html",
     "main.f8b1f3b5.css.map": "/github.io/Nafis-Faiyaz-portfolio/static/css/main.f8b1f3b5.css.map",
-    "main.05913570.js.map": "/github.io/Nafis-Faiyaz-portfolio/static/js/main.05913570.js.map",
+    "main.8544aee5.js.map": "/github.io/Nafis-Faiyaz-portfolio/static/js/main.8544aee5.js.map",
     "488.a299660a.chunk.js.map": "/github.io/Nafis-Faiyaz-portfolio/static/js/488.a299660a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f8b1f3b5.css",
-    "static/js/main.05913570.js"
+    "static/js/main.8544aee5.js"
   ]
 }
