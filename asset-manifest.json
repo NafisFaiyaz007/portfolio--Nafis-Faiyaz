@@ -1,26 +1,20 @@
 {
   "files": {
-    "main.css": "/Nafis-Faiyaz-portfolio/static/css/main.4662e748.css",
-    "main.js": "/Nafis-Faiyaz-portfolio/static/js/main.a24c0bc5.js",
-    "static/js/488.a299660a.chunk.js": "/Nafis-Faiyaz-portfolio/static/js/488.a299660a.chunk.js",
-    "static/media/PumpkinPlus website.png": "/Nafis-Faiyaz-portfolio/static/media/PumpkinPlus website.1f69c5298665ab57994b.png",
-    "static/media/bgImage.jpg": "/Nafis-Faiyaz-portfolio/static/media/bgImage.85fbc2d81eb844fe630e.jpg",
-    "static/media/my picture 2.jpg": "/Nafis-Faiyaz-portfolio/static/media/my picture 2.3470cd13ef7506db0338.jpg",
+    "main.css": "/Nafis-Faiyaz-portfolio/static/css/main.a0096d76.css",
+    "main.js": "/Nafis-Faiyaz-portfolio/static/js/main.08f3f003.js",
+    "static/js/488.88b0cb56.chunk.js": "/Nafis-Faiyaz-portfolio/static/js/488.88b0cb56.chunk.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/Nafis-Faiyaz-portfolio/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
-    "static/media/medease.png": "/Nafis-Faiyaz-portfolio/static/media/medease.629e39e4cf00e65b05ea.png",
-    "static/media/NSU canteen.jpg": "/Nafis-Faiyaz-portfolio/static/media/NSU canteen.97a5ce7b1cd0ce142930.jpg",
     "static/media/fontawesome-webfont.eot": "/Nafis-Faiyaz-portfolio/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
     "static/media/fontawesome-webfont.ttf?v=4.7.0": "/Nafis-Faiyaz-portfolio/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
     "static/media/fontawesome-webfont.woff?v=4.7.0": "/Nafis-Faiyaz-portfolio/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/Nafis-Faiyaz-portfolio/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
-    "static/media/alcohol.webp": "/Nafis-Faiyaz-portfolio/static/media/alcohol.ee2aa4ed55168eb10053.webp",
     "index.html": "/Nafis-Faiyaz-portfolio/index.html",
-    "main.4662e748.css.map": "/Nafis-Faiyaz-portfolio/static/css/main.4662e748.css.map",
-    "main.a24c0bc5.js.map": "/Nafis-Faiyaz-portfolio/static/js/main.a24c0bc5.js.map",
-    "488.a299660a.chunk.js.map": "/Nafis-Faiyaz-portfolio/static/js/488.a299660a.chunk.js.map"
+    "main.a0096d76.css.map": "/Nafis-Faiyaz-portfolio/static/css/main.a0096d76.css.map",
+    "main.08f3f003.js.map": "/Nafis-Faiyaz-portfolio/static/js/main.08f3f003.js.map",
+    "488.88b0cb56.chunk.js.map": "/Nafis-Faiyaz-portfolio/static/js/488.88b0cb56.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4662e748.css",
-    "static/js/main.a24c0bc5.js"
+    "static/css/main.a0096d76.css",
+    "static/js/main.08f3f003.js"
   ]
 }
