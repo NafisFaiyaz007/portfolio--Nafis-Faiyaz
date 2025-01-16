@@ -48,10 +48,14 @@ const TimelineSection = () => {
                 <div className="absolute -left-3 top-1.5 w-6 h-6 bg-myTeal rounded-full"></div>
                 <h3 className="text-xl font-raleway">{item.title}</h3>
                 <p className="text-sm text-tealbg-teal-900">{item.company}</p>
-                <p className="text-sm text-tealbg-teal-900 mb-2">
-                  {item.duration}
-                </p>
-                <p className="text-sm">{item.description}</p>
+                <ul className="list-disc pl-6 mt-2">
+                  {item.description.map((point, i) => (
+                    <li key={i} className="text-myBlack">
+                      {point}
+                    </li>
+                  ))}
+                </ul>
+                {/* <p className="text-sm">{item.description}</p> */}
               </div>
             ))}
           </div>
@@ -74,7 +78,7 @@ const TimelineSection = () => {
                 <p className="text-sm text-tealbg-teal-900">
                   {item.institution}
                 </p>
-                <p className="text-sm text-tealbg-teal-900 mb-2">
+                <p className="text-sm text-teal  mb-2">
                   {item.duration}
                 </p>
                 <p className="text-sm">
@@ -89,9 +93,7 @@ const TimelineSection = () => {
           </div>
         </div>
       </div>
-     
     </div>
-    
   );
 };
 

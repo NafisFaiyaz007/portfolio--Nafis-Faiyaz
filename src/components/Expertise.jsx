@@ -44,9 +44,9 @@ const Expertise = () => {
     >
       <div className="container mx-auto text-center">
         {/* Heading */}
-        <h2 className="text-3xl sm:text-4xl font-raleway mb-6 animate__animated animate__fadeIn">
+        {/* <h2 className="text-3xl sm:text-4xl font-raleway mb-6 animate__animated animate__fadeIn">
           My Expertise
-        </h2>
+        </h2> */}
 
         {/* Expertise Areas List */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-6 animate__animated animate__fadeIn">

@@ -5,6 +5,7 @@ import Expertise from "../components/Expertise";
 import TimelineSection from "../components/TimelineSection";
 import CombinedSection from "../components/ProjectSection";
 import Footer from "../components/Footer";
+import Painting from "../components/Painting";
 const Home = () => {
   return (
     <div>
@@ -13,6 +14,7 @@ const Home = () => {
       <Expertise/>
       <TimelineSection/>
       <CombinedSection/>
+      <Painting/>
       <Footer/>
       {/* Add the rest of your home page content here */}
     </div>
