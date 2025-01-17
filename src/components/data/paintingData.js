@@ -25,7 +25,7 @@ const paintingData = [
   },
   {
     id: 3,
-    title: "Frozen Depths: Bubbles of Lifee",
+    title: "Frozen Depths: Bubbles of Life",
     description:
       " This painting vividly illustrates the mysterious beauty beneath a frozen sea, where water bubbles drift gracefully against icy currents. The swirling shades of blue and white mimic the movement of water, while golden circles evoke the shimmering sunlight refracted through the ice above. The abstract forms create a sense of depth and fluidity, symbolizing life persisting even in the coldest, most serene environments. This artwork invites the viewer to explore the hidden wonders beneath a frozen surface.",
     image: frozen,
