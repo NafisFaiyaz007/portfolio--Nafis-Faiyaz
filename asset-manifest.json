@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Nafis-Faiyaz-portfolio/static/css/main.5bd1aaff.css",
-    "main.js": "/Nafis-Faiyaz-portfolio/static/js/main.85f32451.js",
+    "main.js": "/Nafis-Faiyaz-portfolio/static/js/main.9128f437.js",
     "static/js/488.a299660a.chunk.js": "/Nafis-Faiyaz-portfolio/static/js/488.a299660a.chunk.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/Nafis-Faiyaz-portfolio/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/fontawesome-webfont.eot": "/Nafis-Faiyaz-portfolio/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
@@ -10,11 +10,11 @@
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/Nafis-Faiyaz-portfolio/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "index.html": "/Nafis-Faiyaz-portfolio/index.html",
     "main.5bd1aaff.css.map": "/Nafis-Faiyaz-portfolio/static/css/main.5bd1aaff.css.map",
-    "main.85f32451.js.map": "/Nafis-Faiyaz-portfolio/static/js/main.85f32451.js.map",
+    "main.9128f437.js.map": "/Nafis-Faiyaz-portfolio/static/js/main.9128f437.js.map",
     "488.a299660a.chunk.js.map": "/Nafis-Faiyaz-portfolio/static/js/488.a299660a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5bd1aaff.css",
-    "static/js/main.85f32451.js"
+    "static/js/main.9128f437.js"
   ]
 }
